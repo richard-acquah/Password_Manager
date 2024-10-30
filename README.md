@@ -91,4 +91,3 @@ While this project is a basic password management solution, it does not employ e
 
 This Password Manager project is an essential tool for safely storing and accessing user credentials. Its user-friendly interface, efficient SQLite3 database backend, and basic animations make it both practical and engaging. Though basic, the project provides a strong foundation for building a more advanced password management system.
 
-

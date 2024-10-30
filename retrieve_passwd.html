@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Retrieve a Password</h2>
+    <form method="POST">
+        <label for="service">Service Name:</label>
+        <input type="text" name="service" required><br>
+        <input type="submit" value="Retrieve Password">
+    </form>
+
+    {% if service %}
+        <h3>Details for {{ service }}:</h3>
+        <p>Username: {{ username }}</p>
+        <p>Password: {{ password }}</p>
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Add a New Password</h2>
+    <form method="POST">
+        <label for="service">Service Name:</label>
+        <input type="text" name="service" required><br>
+        <label for="username">Username:</label>
+        <input type="text" name="username" required><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" required><br>
+        <input type="submit" value="Add Password">
+    </form>
+{% endblock %}
